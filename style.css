@@ -1,0 +1,145 @@
+/* css document for Advent Calendar project */
+
+/*
+$ChristmasRed = '#e63b10';
+$ChristmasGreen = '#56b887';
+*/
+
+body {
+	background-color:#56B887;
+}
+
+#Background {
+    background-color:#56B887;
+}
+#DayLink{
+    text-align: center;
+}
+
+#DayLink img{
+    border-radius: 15px 15px 15px 15px;
+}
+
+#Wrapper{
+	margin: auto;
+    margin-top: 15px;
+    width: 940px;
+    height: 1364px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 15px 15px 15px 15px;
+}
+
+#Tree{
+/*    z-index: 1;*/
+    border-radius: 15px 15px 15px 15px;
+    align-content: center;
+    width:auto;
+    height: auto;
+    position: absolute;
+}
+
+#Heading{
+    font-size: 60pt;
+    font-family: cursive;
+    color: #e63b10;
+/*    border-style: solid;*/
+    text-align: center;
+    position: absolute;
+    width: 940px;
+}
+
+#indexHeading{
+    text-align: center;
+    background-color: #ADCBBC;
+    font-family: cursive;
+    color: #e63b10;
+}
+
+#Note{
+    margin-top: 100px;
+    font-family: cursive;
+    color: #e63b10;
+/*    border-style: solid;*/
+    text-align: center;
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    left: 120px;
+    top: 1000px;
+    font-size: 3.5vw;
+}
+
+#myElement{
+    width: 580px;
+    height: 230px;
+}
+
+#myElement span{
+    font-family: cursive;
+}
+
+#data{
+	margin: auto;
+	width: 700px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 10px 5px 10px 25px;
+	height: auto;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #517a39;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 75px;
+}
+#search{
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 60px;
+	padding: 0px 0px 0px 15px;
+	color: white;
+	font-family: trebuchet ms, Cursive, Arial, Helvetica, sans-serif;
+	background-color: #517a39;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 75px;
+
+}
+#footer {
+	font-size:16px;
+	font-family:Arial;
+}
+center a {
+	text-decoration:none;
+	color:black;
+}
+center a:hover {
+	text-decoration:underline;
+	color:blue;
+}
+#footing{
+	color: lightgray;
+}
+
+/*Classes*/
+.inputSearches
+{
+	text-align: right;
+	margin:18px 0px 0px 0px;
+	width:160px;
+}
+
+.push {
+	height: 4em;     /*Creates space between bottom of page to the bottom of content before the footer*/
+}
+.smallpush {
+	height: 1em;     /*Creates space between bottom of page to the bottom of content before the footer*/
+}
+.grayText {
+	color: gray;
+}
+
+/*
+$('#my-element').textfill({
+});
+*/

@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ftp://ftp.byethost12.com:21/swiftturtlelabs.byethost12.com/htdocs/AdventCalendarTS
-        ftp-username: myFtpUserName
+        ftp-username: b12_14570845
         ftp-password: ${{ secrets.FTP_PASSWORD }}

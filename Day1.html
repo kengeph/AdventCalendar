@@ -1,0 +1,44 @@
+<!-- This is Kengeph's Advent Calendar for Katie Website -->
+
+<html>
+
+<head>
+<title>Katie's Advent Calendar Day 1</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="jquery.textfill.min.js"></script>
+    <script src="snowfall.js"></script>
+    <script>
+        $(document).ready(function() {
+            snowFall.snow($("img"), {
+                minSize: 1,
+                maxSize: 12,
+                round: true,
+                minSpeed: 4,
+                maxSpeed: 12,
+                flakeCount: 200
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+	<div id="Wrapper"> <!-- This is the layer above the background -->
+        <img  id="Tree" src="Tree Final.jpg" alt=""/>
+<!--	   <img style="z-index:2" src="SNOWFALL.gif"/>-->
+        <h1 id="Heading"> 24 Days Till Christmas </h1>
+        <h2 id="Note">
+            <div id='myElement'>
+                <span>
+                    Lets begin the season right, with some Hot Cocoa!
+                </span>
+            </div>
+        </h2>
+	</div>
+</body>
+</html>
